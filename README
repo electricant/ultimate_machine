@@ -1,0 +1,15 @@
+ultimate_machine
+================
+
+Firmware for PIC10F220 based Ultimate Machine.
+The goal of this project is to create something useless and fun at the same time.
+
+FURTHER INFORMATION:
+http://en.wikipedia.org/wiki/Claude_Shannon#Hobbies_and_inventions
+http://www.youtube.com/watch?v=KxaWvJ-ziXA
+
+HOW TO BUILD:
+A makefile is provided for compiling and downlading the firmware on the PIC10F220.
+The command 'make' builds and downloads the software on the part.
+To run the software on the microcontroller execute 'make run'.
+If just a rebuild of the surce is desired run 'make build'.
