@@ -8,6 +8,14 @@ FURTHER INFORMATION:
 http://en.wikipedia.org/wiki/Claude_Shannon#Hobbies_and_inventions
 http://www.youtube.com/watch?v=KxaWvJ-ziXA
 
+REQUIRED SOFTWARE:
+This code has been written under GNU/Linux.
+Therfore the following software is needed:
+* gputils (from your distro repository)
+* pk2cmd (from microchip website)
+Gpasm is fully compatible with mpasm so buildng under windows should be straightforward.
+However you are on your own as I have no machine running windows handy.
+
 HOW TO BUILD:
 A makefile is provided for compiling and downlading the firmware on the PIC10F220.
 The command 'make' builds and downloads the software on the part.
