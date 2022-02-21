@@ -56,7 +56,7 @@ _1ms	nop
 _4us	nop
 	decfsz	W,f
 	goto	_4us
-      
+
 	; logic 0
 	bcf	SERVO
 	retlw	0
@@ -99,5 +99,5 @@ max
 	movlw	SERVO_MAX
 	movwf	servo_pos
 	goto	tst
-      
+
 	END
